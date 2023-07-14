@@ -6,6 +6,9 @@
 
 
 <form method="post">
+    @Html.Label("Ürün Kategorisi")
+    @Html.DropDownListFor(x=>x.CategoryId ,(List<SelectListItem>)ViewBag.v,new{@class ="form-control"})
+    <br />
     @Html.Label("Ürün Adı")
     @Html.TextBoxFor(x=> x.Name,new{@class = "form-control"})
     @Html.ValidationMessageFor(x=> x.Name)
@@ -13,7 +16,7 @@
     @Html.Label("Ürün Fiyatı")
     @Html.TextBoxFor(x=> x.Price,new{@class = "form-control"})
     @Html.ValidationMessageFor(x=> x.Price)
-    <br />
+    <br />    
     @Html.Label("Ürün Stok Sayısı")
     @Html.TextBoxFor(x=> x.Stock,new{@class = "form-control"})
     @Html.ValidationMessageFor(x=> x.Stock)

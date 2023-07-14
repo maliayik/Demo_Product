@@ -8,6 +8,9 @@
     @Html.Label("Ürün Id")
     @Html.TextBoxFor(x=> x.Id,new {@class = "form-control"})
     <br />
+    @Html.Label("Kategori Seçiniz");
+    @Html.DropDownListFor(x=> x.CategoryId,(List<SelectListItem>)ViewBag.v,new {@class = "form-control"})
+    <br />
     @Html.Label("Ürün Adı")
     @Html.TextBoxFor(x=> x.Name,new {@class = "form-control"})
     <br />
