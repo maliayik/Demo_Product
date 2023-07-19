@@ -1,5 +1,6 @@
 # Demo_Product
--Bu proje MVC N katmanlı mimaride inşa edilmiştir.
+-Bu proje .NetCore 6.0  MVC N katmanlı mimaride inşa edilmiştir.
+<br>
 -Proje içerisinde; 
 <br>
 *Kullanıcı kayıt
